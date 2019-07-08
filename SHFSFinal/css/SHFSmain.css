@@ -1,0 +1,92 @@
+
+/**
+ * File Name: SHFSmain.css
+ *
+ * Revision History:
+ *       Sam Herron, 2018-04-18 : Created file
+ */
+
+
+.mid {
+    text-align: center;
+}
+
+header {
+
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+footer {
+    position: fixed;
+}
+
+.text {
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+
+    font-size: 80px;
+
+}
+
+button:hover {
+    opacity: 0.8;
+    color: #1b1b1b;
+    transition-duration: 0.5s;
+    transition-property: all;
+
+}
+
+.reviewContainer {
+    color: #000;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid gray;
+    background-color: rgba(30, 30, 30, 0.05);
+}
+
+.reviewContainer p {
+    font-weight: normal;
+}
+
+.reviewContainer:hover {
+    transition-property: all;
+    transition-duration: 0.5s;
+    background-color: rgba(30, 30, 30, 0.2);
+}
+
+
+label.error {
+    color: #F00;
+    font-weight: bold;}
+input.error,select.error,textarea.error {
+    border: 1px red solid;
+}
+
+#developerInfo {
+    margin-left: 2%;
+
+}
+*:focus {
+    outline: none;
+}
+
+
+
+
